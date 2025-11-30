@@ -1,3 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartFinder - Find the Best Products Instantly</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; }
+    header { background:#000; color:#fff; padding:20px; text-align:center; font-size:28px; font-weight:bold; }
+    .container { width:90%; max-width:900px; margin:40px auto; }
+    .search-box { background:#fff; padding:30px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); }
+    .search-box h2 { margin-top:0; font-size:24px; }
+    input[type="text"] { width:100%; padding:15px; border-radius:10px; border:1px solid #ccc; font-size:16px; }
+    button { margin-top:20px; padding:15px 25px; background:#000; color:#fff; border:none; border-radius:10px; font-size:18px; cursor:pointer; }
+    .section-title { margin-top:50px; font-size:24px; font-weight:bold; }
+    .list-card { background:#fff; padding:20px; margin-top:15px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.08); }
+    .list-card h3 { margin:0; }
+  </style>
+</head>
+<body>
+  <header>SmartFinder</header>
+
+  <div class="container">
+    <div class="search-box">
+      <h2>Find the Best Product Instantly</h2>
+      <p>Type what you're searching for (e.g. "best phone under $300", "best wireless earbuds 2025")</p>
+      <input type="text" placeholder="Search for any product..." />
+      <button>Search</button>
+    </div>
+
+    <h2 class="section-title">Top Categories</h2>
+
+    <div class="list-card">
+      <h3>Best Smartphones 2025</h3>
+      <p>Updated global ranking of the most powerful phones.</p>
+    </div>
+
+    <div class="list-card">
+      <h3>Best Laptops for Students</h3>
+      <p>Affordable and powerful laptops for study and productivity.</p>
+    </div>
+
+    <div class="list-card">
+      <h3>Best Budget Earbuds</h3>
+      <p>Top earbuds with amazing sound quality for low prices.</p>
+    </div>
+
+    <div class="list-card">
+      <h3>Best Gaming Accessories</h3>
+      <p>Keyboards, mice, headsets and more for professional gamers.</p>
+    </div>
+
+  </div>
+</body>
+</html>
 ## Coming from AsyncDisplayKit? Learn more [here](https://medium.com/@Pinterest_Engineering/introducing-texture-a-new-home-for-asyncdisplaykit-e7c003308f50)
 
 ![Texture](https://github.com/texturegroup/texture/raw/master/docs/static/images/logo.png)
